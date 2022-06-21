@@ -56,7 +56,7 @@ public class SampleAppTest {
         PageView pageView = new PageView(driver);
         pageView.setTextField("test");
 
-        assertEquals(pageView.getTextField(), "test", "Text failed was not set");
+        assertEquals(pageView.getTextField(), "test", "Text field was not set");
     }
 
     @AfterClass
